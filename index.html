@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fincan</title>
+<meta name="description" content="Kahve falı, tarot, burç yorumu ve fal topluluğu.">
+<link rel="icon" href="ikon.png">
+<style>
+  :root {
+    --zemin: #1E1411; --yuzey: #2E201B; --cizgi: #4F3A30;
+    --metin: #F3E6D8; --soluk: #B9A493; --altin: #D4A84B; --koyu-altin: #A9822F;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--zemin); color: var(--metin);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px; line-height: 1.6;
+  }
+  main { max-width: 680px; margin: 0 auto; padding: 32px 16px 64px; }
+  a { color: var(--altin); }
+  h1 { color: var(--altin); font-size: 30px; line-height: 1.2; margin: 0 0 8px; }
+  h2 { color: var(--altin); font-size: 19px; margin: 32px 0 8px; }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin: 6px 0; }
+  li::marker { color: var(--koyu-altin); }
+  .soluk { color: var(--soluk); font-size: 14px; }
+  .kahraman { text-align: center; padding: 32px 0 8px; }
+  .kahraman img { width: 112px; height: 112px; border-radius: 26px; }
+  .kahraman p { color: var(--soluk); font-size: 18px; margin: 0; }
+  .kart {
+    background: var(--yuzey); border: 1px solid var(--cizgi); border-radius: 20px;
+    padding: 16px 20px; margin-top: 16px;
+  }
+  .kart h3 { margin: 0 0 4px; font-size: 17px; }
+  .kart p { margin: 0; color: var(--soluk); }
+  footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--cizgi); }
+  .geri { display: inline-block; margin-bottom: 24px; text-decoration: none; }
+</style>
+</head>
+<body>
+<main>
+<div class="kahraman">
+  <img src="ikon.png" alt="Fincan simgesi">
+  <h1>Fincan</h1>
+  <p>Kahve falı, tarot, burç ve fal topluluğu</p>
+</div>
+<div class="kart"><h3>☕ Kahve falı</h3><p>Fincanının fotoğrafını çek, sembollerini ve anlamlarını oku.</p></div>
+<div class="kart"><h3>🔮 Tarot</h3><p>Üç kart çek: geçmişin, bugünün ve geleceğin.</p></div>
+<div class="kart"><h3>🪐 Doğum haritası ve günlük burç</h3><p>Yükselenin, gezegenlerin ve bugün gökyüzünün sana söyledikleri.</p></div>
+<div class="kart"><h3>💬 Topluluk</h3><p>Fallarını paylaş, başkalarınınkine yorum yap.</p></div>
+<p class="soluk" style="text-align:center;margin-top:24px">Yakında App Store’da.</p>
+<footer class="soluk"><a href="gizlilik.html">Gizlilik politikası</a> · Fallar eğlence amaçlıdır.</footer>
+</main>
+</body>
+</html>
